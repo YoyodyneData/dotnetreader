@@ -19,6 +19,10 @@ reference to the specified table name.
 The dotnetreader is set by default to identify the tags within a .dtsx file but the settings can be changed to read any XML file source.  
 You must change the file extension to search for and the namespace used by the XML file being read.
 
+# Mapping Fields
+The dotnetreader also has the capability to create a mapping of fields from the Source to Destination within components of an SSIS 
+project.  For this a specific .dtsx file must be selected.  The application will generate an output file showing the mapping from source to destination for each field within each data flow task.  
+
 # Output
 The results are written to an XML file.  They can be opened in a browser or any application that allows viewing XML including 
 the dotnetreader.  
